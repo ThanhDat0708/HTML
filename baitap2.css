@@ -1,0 +1,52 @@
+.text
+{
+     max-width: 45rem;
+}
+.text-heading
+{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.container 
+{
+
+    max-width: 130rem;
+    background-color: #fff3e8;
+    margin: 0 auto;
+   
+}
+.grid-2-cols
+{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    padding: 5rem;
+
+    gap: 5.2rem;
+
+    justify-items: center;
+
+    align-items: center;
+}
+.text-number
+{
+    font-size: 100px;
+    max-width: 600;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+.text-body
+{
+ font-size: 18px;
+}
+.box-square
+{
+    justify-self: center;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border-radius: 5% 40% 40% 40%;
+    background-color: chocolate;
+}

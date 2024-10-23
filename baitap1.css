@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    
+    font-family:'Rubik', sans-serif;
+    font-size: 35px;
+    margin: auto;
+    
+}
+.content{
+    width: 700px;
+    font-size: 22px;
+    height: 300px;
+    margin-bottom: 10px;
+    line-height: 1;
+    text-align: left;
+    
+}
+.box-header
+{
+
+    font-size: 36px;
+    font-weight: 600;
+}
+.font
+{
+    font-size: 28px;
+    margin-bottom: 25px;
+
+}
+.accordionr
+{
+    background-color: rgba(251, 218, 202, 0.995);
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 4rem;
+}
+.grid
+{
+    
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 2.4rem;
+}
+.fox
+{
+    margin-bottom:10rem 
+    text-align: center;
+}
+.button1
+{
+    
+    background-color: rgb(246, 145, 82); 
+    border: none;  
+    padding: 15px 20px; 
+    text-align: center;  
+    font-size: 16px; 
+    color: #555;
+    margin: 4px 2px; 
+    border-radius:10px 10px 10px 10px;
+    width: auto;
+    height:auto;
+    font-weight:600;
+    float:left;
+    margin-right: 50px;
+
+}
+.button2
+{
+    background-color:rgb(246, 145, 82);
+    border: none;  
+    padding: 15px 20px; 
+    text-align: center;  
+    font-size: 16px; 
+    margin: 4px 2px;  
+    border-radius: 10px 10px 10px 10px ;
+    width: auto;
+    height:auto;
+    font-weight:600;
+    color: #555;
+    float: left;
+    
+}
+.box-square
+{
+    background-color: rgb(238, 107, 14);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 40% 40% 40%;
+    display: inline-flex;
+    padding: 15px 10px ;
+    float:right;
+    position: relative ;
+    top:-17.5rem;
+    left:25rem;
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+
+}
